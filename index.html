@@ -7,19 +7,24 @@
 </head>
 <body>
   <h1>Privacy Policy for TapHoaMMO Scammer Tag</h1>
-  <p><strong>Last Updated:</strong> April 1, 2025</p>
+  <p><strong>Last Updated:</strong> April 6, 2025</p>
 
   <p>Thank you for using TapHoaMMO Scammer Tag ("the Extension"). This Privacy Policy explains how we handle your data when you use the Extension. We are committed to protecting your privacy and ensuring transparency.</p>
 
   <h2>1. Data We Collect</h2>
-  <p>The Extension does not collect any personal or sensitive user data. However, it performs the following actions:</p>
+  <p>The Extension does not collect any personal or sensitive user data. It performs the following actions:</p>
   <ul>
     <li><strong>Website Data:</strong> The Extension accesses the DOM (Document Object Model) of web pages on taphoammo.net to identify seller names and tag potential scammers. This data is processed locally on your device and is not transmitted to any external servers.</li>
-    <li><strong>Scammer List:</strong> The Extension fetches a list of scammers from a predefined set of Google Apps Script APIs. This list is stored locally on your device using Chrome's storage API (`chrome.storage.local`).</li>
+    <li><strong>Scammer List:</strong> The Extension fetches a list of scammers from third-party Google Apps Script APIs. This list is stored locally on your device using Chrome's storage API (`chrome.storage.local`).</li>
   </ul>
 
   <h2>2. How We Use Your Data</h2>
-  <p>The data accessed by the Extension is used solely to provide its core functionality: identifying and tagging potential scammers on taphoammo.net. All processing is done locally on your device, and no data is shared with third parties.</p>
+  <p>The data accessed by the Extension is used solely to provide its core functionality: identifying and tagging potential scammers on taphoammo.net. Specifically:</p>
+  <ul>
+    <li>DOM data is used to identify seller names and append a "SCAMMER" tag with a reason where applicable.</li>
+    <li>The scammer list is used to match seller names against known scammers.</li>
+  </ul>
+  <p>All processing is done locally on your device, and no data is shared with third parties.</p>
 
   <h2>3. Data Storage</h2>
   <p>The scammer list fetched from the API is stored locally on your device using `chrome.storage.local`. This data is automatically updated every 2 hours to ensure accuracy. You can clear this data at any time by uninstalling the Extension or clearing your browser's storage.</p>
@@ -27,13 +32,13 @@
   <h2>4. Third-Party Services</h2>
   <p>The Extension fetches data from Google Apps Script APIs to retrieve the scammer list. We do not control these APIs, and we are not responsible for their privacy practices. The API URLs used are:</p>
   <ul>
-<li>https://script.google.com/macros/s/AKfycbzkombpu36LJFkYZDUX0xT8Pq6onfY1te8v6CblAzu5WbC2XNYaVR5PxY0xfd4-HACukQ/exec</li>
-<li>https://script.google.com/macros/s/AKfycbz3Ub5Ex7VOJglxQ_QbFfMGghhZOC3lkszt68kvd_fbEz5HjadxU4aqpYC0HJr6SZ7l_Q/exec</li>
-<li>https://script.google.com/macros/s/AKfycbzRP_gOkem5OM-Ql7yx-9dY94i8I14uLzeKf4MGO9KLT22KSWUZqsURroEUvFvzvHSBsQ/exec</li>
-<li>https://script.google.com/macros/s/AKfycbyjcUF0yY6HkTqgeQ_qA-RkWszxsJpHWLDEbqlz85Ot2B4uJKU_LyQAyxh4R0Rb869oWA/exec</li>
-<li>https://script.google.com/macros/s/AKfycbxeZDCiSCCJ5QljOIIzHcTcjqWfq37oAZ0NZxK12xphKLXlSSgvHVHjDyOB6XO9be0L_g/exec</li>
-<li>https://script.google.com/macros/s/AKfycbyHfM6kAKnQgh75zi0af7AeYq3GATUpn4tFRmESVxzvZCLeGrU5HC29dX51VCfNtzViaQ/exec</li>
-<li>https://script.google.com/macros/s/AKfycbxxLBZngxrd4vus4QBS1cbanBJSHyEZDqMzCmqRyhbU5xA9giLXw2qcaE3azaDbVmOitQ/exec</li>
+    <li>https://script.google.com/macros/s/AKfycbzkombpu36LJFkYZDUX0xT8Pq6onfY1te8v6CblAzu5WbC2XNYaVR5PxY0xfd4-HACukQ/exec</li>
+    <li>https://script.google.com/macros/s/AKfycbz3Ub5Ex7VOJglxQ_QbFfMGghhZOC3lkszt68kvd_fbEz5HjadxU4aqpYC0HJr6SZ7l_Q/exec</li>
+    <li>https://script.google.com/macros/s/AKfycbzRP_gOkem5OM-Ql7yx-9dY94i8I14uLzeKf4MGO9KLT22KSWUZqsURroEUvFvzvHSBsQ/exec</li>
+    <li>https://script.google.com/macros/s/AKfycbyjcUF0yY6HkTqgeQ_qA-RkWszxsJpHWLDEbqlz85Ot2B4uJKU_LyQAyxh4R0Rb869oWA/exec</li>
+    <li>https://script.google.com/macros/s/AKfycbxeZDCiSCCJ5QljOIIzHcTcjqWfq37oAZ0NZxK12xphKLXlSSgvHVHjDyOB6XO9be0L_g/exec</li>
+    <li>https://script.google.com/macros/s/AKfycbyHfM6kAKnQgh75zi0af7AeYq3GATUpn4tFRmESVxzvZCLeGrU5HC29dX51VCfNtzViaQ/exec</li>
+    <li>https://script.google.com/macros/s/AKfycbxxLBZngxrd4vus4QBS1cbanBJSHyEZDqMzCmqRyhbU5xA9giLXw2qcaE3azaDbVmOitQ/exec</li>
   </ul>
 
   <h2>5. Data Sharing</h2>
@@ -42,10 +47,13 @@
   <h2>6. User Rights</h2>
   <p>Since the Extension does not collect personal data, there is no personal data to access, modify, or delete. If you have concerns about the scammer list or the Extension's functionality, you can uninstall the Extension at any time.</p>
 
-  <h2>7. Changes to This Privacy Policy</h2>
+  <h2>7. Reporting Inaccurate Tags</h2>
+  <p>The scammer list is sourced from third-party APIs, and we do not guarantee its accuracy. If you believe a "SCAMMER" tag is incorrect, please contact us at [Your Email Address] to report the issue.</p>
+
+  <h2>8. Changes to This Privacy Policy</h2>
   <p>We may update this Privacy Policy from time to time. Any changes will be reflected on this page with an updated "Last Updated" date.</p>
 
-  <h2>8. Contact Us</h2>
+  <h2>9. Contact Us</h2>
   <p>If you have any questions or concerns about this Privacy Policy or the Extension, please contact us at:</p>
   <p>Email: manhta6890@gmail.com</p>
 
